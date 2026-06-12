@@ -6,6 +6,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.3](https://github.com/renovate-bot/rustfoundation-_-typomania/compare/v0.1.2...v0.1.3) - 2026-06-12
+
+### Fixed
+
+- *(checks)* handle multi-byte UTF-8 in package names
+- *(deps)* update rust crate itertools to 0.14.0 ([#18](https://github.com/renovate-bot/rustfoundation-_-typomania/pull/18))
+- *(deps)* update rust crate thiserror to v2 ([#20](https://github.com/renovate-bot/rustfoundation-_-typomania/pull/20))
+
+### Other
+
+- *(checks)* add proptest no-panic coverage
+- *(checks)* push repeated char directly in `Repeated` check
+- *(checks)* push swapped chars directly in `Characters` check
+- *(checks)* move `rebuild_name()` into test module
+- *(checks)* reuse a single buffer in `Characters` check
+- *(checks)* reuse a single buffer in `Repeated` check
+- *(checks)* push delimiter char directly instead of storing strings
+- *(checks)* reuse a single buffer when generating variants
+- add criterion benchmarks for checks
+- *(deps)* update actions/checkout action to v6 ([#19](https://github.com/renovate-bot/rustfoundation-_-typomania/pull/19))
+- *(deps)* update rust crate rayon to v1.12.0 ([#17](https://github.com/renovate-bot/rustfoundation-_-typomania/pull/17))
+- *(deps)* update rust crate clap to v4.6.1 ([#16](https://github.com/renovate-bot/rustfoundation-_-typomania/pull/16))
+- *(deps)* update rust crate thiserror to v1.0.69 ([#13](https://github.com/renovate-bot/rustfoundation-_-typomania/pull/13))
+- *(deps)* update rust crate tracing to v0.1.44 ([#14](https://github.com/renovate-bot/rustfoundation-_-typomania/pull/14))
+- Add renovate.json ([#12](https://github.com/renovate-bot/rustfoundation-_-typomania/pull/12))
+- fix clippy lints on stable ([#10](https://github.com/renovate-bot/rustfoundation-_-typomania/pull/10))
+- run release-plz each commit
+
 ## [0.1.2](https://github.com/rustfoundation/typomania/compare/v0.1.1...v0.1.2) - 2023-11-10
 
 ### Fixed
