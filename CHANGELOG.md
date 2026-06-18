@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1](https://github.com/renovate-bot/rustfoundation-_-typomania/compare/v0.2.0...v0.2.1) - 2026-06-18
+
+### Other
+
+- *(deps)* update actions/checkout action to v7 ([#27](https://github.com/renovate-bot/rustfoundation-_-typomania/pull/27))
+
 ## [0.2.0](https://github.com/rustfoundation/typomania/compare/v0.1.2...v0.2.0) - 2026-06-12
 
 ### Fixed
